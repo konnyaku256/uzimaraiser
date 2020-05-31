@@ -25,7 +25,7 @@ export default class Share extends Vue {
   @Prop({ default: 0 })
   generation!: number;
   get twitterShareHref() {
-    return `https://twitter.com/intent/tweet?text=${this.nickname} is now age ${this.age}(${this.version}) generation ${this.generation} !&url=https://uzimaraiser.konnyaku256.dev/&hashtags=uzimaraiser`;
+    return `https://twitter.com/intent/tweet?text=${this.nickname} is now age ${this.age}(${this.version}) generation ${this.generation} !&url=https://uzimaraiser.now.sh&hashtags=uzimaraiser`;
   }
 }
 </script>
